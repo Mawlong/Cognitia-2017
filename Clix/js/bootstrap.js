@@ -98,7 +98,7 @@ if (typeof jQuery === 'undefined') {
 
   Alert.VERSION = '3.3.6'
 
-  Alert.TRANSITION_DURATION = 150
+  Alert.TRANSITION_DURATION = 100
 
   Alert.prototype.close = function (e) {
     var $this    = $(this)
@@ -1276,7 +1276,7 @@ if (typeof jQuery === 'undefined') {
 
   Tooltip.VERSION  = '3.3.6'
 
-  Tooltip.TRANSITION_DURATION = 150
+  Tooltip.TRANSITION_DURATION = 100
 
   Tooltip.DEFAULTS = {
     animation: true,
